@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T00:21:27 SGT" name="Default suite" finished-at="2023-12-05T00:23:58 SGT" duration-ms="151001">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T00:21:27 SGT" name="Default test" finished-at="2023-12-05T00:23:58 SGT" duration-ms="151001">
+      <class name="coterie.TestFiles.RegUsrQB">
+        <test-method is-config="true" signature="extentSetup()[pri:0, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:27 SGT" name="extentSetup" finished-at="2023-12-05T00:21:28 SGT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method signature="invokeApplication(java.lang.String)[pri:1, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:29 SGT" name="invokeApplication" data-provider="Data" finished-at="2023-12-05T00:21:42 SGT" duration-ms="12930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApplication -->
+        <test-method signature="titleValLandingPage(java.lang.String)[pri:2, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:42 SGT" name="titleValLandingPage" data-provider="Data" finished-at="2023-12-05T00:21:44 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.invokeApplication" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValLandingPage -->
+        <test-method signature="hbIconClickHome()[pri:3, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:44 SGT" name="hbIconClickHome" finished-at="2023-12-05T00:21:48 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValLandingPage" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hbIconClickHome -->
+        <test-method signature="usrIconClick()[pri:4, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:48 SGT" name="usrIconClick" finished-at="2023-12-05T00:21:50 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.hbIconClickHome" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usrIconClick -->
+        <test-method signature="titleValLogInPage(java.lang.String)[pri:5, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:51 SGT" name="titleValLogInPage" data-provider="Data" finished-at="2023-12-05T00:21:56 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.usrIconClick" duration-ms="5057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[High-performing, Sustainable Baby Care and Wipes | Coterie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValLogInPage -->
+        <test-method signature="logInUserName(java.lang.String)[pri:6, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:21:56 SGT" name="logInUserName" data-provider="Data" finished-at="2023-12-05T00:22:03 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValLogInPage" duration-ms="7043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parthasarathi.a@globaldigitalnext.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUserName -->
+        <test-method signature="logInUserName(java.lang.String)[pri:6, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:03 SGT" name="logInUserName" data-provider="Data" finished-at="2023-12-05T00:22:10 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValLogInPage" duration-ms="6958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhargav.tummala@globaldigitalnext.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUserName -->
+        <test-method signature="logInPassWord(java.lang.String)[pri:7, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:10 SGT" name="logInPassWord" data-provider="Data" finished-at="2023-12-05T00:22:17 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.logInUserName" duration-ms="6846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DigiNext@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInPassWord -->
+        <test-method signature="titleValUserDBPage(java.lang.String)[pri:8, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:17 SGT" name="titleValUserDBPage" data-provider="Data" finished-at="2023-12-05T00:22:23 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.logInPassWord" duration-ms="6072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coterie | Coterie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValUserDBPage -->
+        <test-method signature="homePageNav()[pri:9, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:23 SGT" name="homePageNav" finished-at="2023-12-05T00:22:24 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValUserDBPage" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNav -->
+        <test-method signature="quickBuyClick()[pri:10, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:24 SGT" name="quickBuyClick" finished-at="2023-12-05T00:22:27 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.homePageNav" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickBuyClick -->
+        <test-method signature="addDiaper(java.lang.String,java.lang.String)[pri:11, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:27 SGT" name="addDiaper" data-provider="Data" finished-at="2023-12-05T00:22:34 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.quickBuyClick" duration-ms="7580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDiaper -->
+        <test-method signature="addPant(java.lang.String)[pri:12, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:34 SGT" name="addPant" data-provider="Data" finished-at="2023-12-05T00:22:39 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.addDiaper" duration-ms="4935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPant -->
+        <test-method signature="addWipe(java.lang.String)[pri:13, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:39 SGT" name="addWipe" data-provider="Data" finished-at="2023-12-05T00:22:42 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.addPant" duration-ms="2815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4 Packs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWipe -->
+        <test-method signature="costVal()[pri:14, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:42 SGT" name="costVal" finished-at="2023-12-05T00:22:43 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.addWipe" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- costVal -->
+        <test-method signature="checkOut()[pri:15, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:43 SGT" name="checkOut" finished-at="2023-12-05T00:22:45 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.costVal" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="titleValInfoPage(java.lang.String)[pri:16, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:22:45 SGT" name="titleValInfoPage" data-provider="Data" finished-at="2023-12-05T00:23:00 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.checkOut" duration-ms="14783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Information - Coterie Staging - Checkout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValInfoPage -->
+        <test-method signature="productDetails()[pri:17, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:00 SGT" name="productDetails" finished-at="2023-12-05T00:23:01 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValInfoPage" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetails -->
+        <test-method signature="totalPriceVal()[pri:18, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:01 SGT" name="totalPriceVal" finished-at="2023-12-05T00:23:01 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.productDetails" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalPriceVal -->
+        <test-method signature="contactInfoSubmission()[pri:19, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:01 SGT" name="contactInfoSubmission" finished-at="2023-12-05T00:23:18 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.totalPriceVal" duration-ms="17041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInfoSubmission -->
+        <test-method signature="titleValShippingPage(java.lang.String)[pri:20, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:18 SGT" name="titleValShippingPage" data-provider="Data" finished-at="2023-12-05T00:23:20 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.contactInfoSubmission" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shipping - Coterie Staging - Checkout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValShippingPage -->
+        <test-method signature="continuePaymentPage()[pri:21, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:20 SGT" name="continuePaymentPage" finished-at="2023-12-05T00:23:23 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValShippingPage" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuePaymentPage -->
+        <test-method signature="titleValPaymentPage(java.lang.String)[pri:22, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:23 SGT" name="titleValPaymentPage" data-provider="Data" finished-at="2023-12-05T00:23:30 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.continuePaymentPage" duration-ms="7435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Payment - Coterie Staging - Checkout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValPaymentPage -->
+        <test-method signature="ccPayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:30 SGT" name="ccPayment" data-provider="Data" finished-at="2023-12-05T00:23:33 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValPaymentPage" duration-ms="2137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4242424242424242]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1225]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccPayment -->
+        <test-method signature="payNow()[pri:24, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:33 SGT" name="payNow" finished-at="2023-12-05T00:23:34 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.ccPayment" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payNow -->
+        <test-method signature="titleValOCPage(java.lang.String)[pri:25, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:34 SGT" name="titleValOCPage" data-provider="Data" finished-at="2023-12-05T00:23:53 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.payNow" duration-ms="19243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thank you for your purchase! - Coterie Staging - Checkout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValOCPage -->
+        <test-method signature="orderSubmissionVal()[pri:26, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:53 SGT" name="orderSubmissionVal" finished-at="2023-12-05T00:23:54 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.titleValOCPage" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSubmissionVal -->
+        <test-method signature="AssertAll()[pri:27, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:54 SGT" name="AssertAll" finished-at="2023-12-05T00:23:54 SGT" depends-on-methods="coterie.TestFiles.RegUsrQB.orderSubmissionVal" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertAll -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:coterie.TestFiles.RegUsrQB@6c284af]" started-at="2023-12-05T00:23:54 SGT" name="teardown" finished-at="2023-12-05T00:23:58 SGT" duration-ms="4777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- coterie.TestFiles.RegUsrQB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

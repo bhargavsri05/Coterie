@@ -1,0 +1,2564 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 15, 2023 01:20:46 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Parthasarathi</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="54"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Landing/Home Page title validation.</p>
+            <p class="text-sm">
+              <span>1:40:06 am</span> / <span>00:00:02:012</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Landing/Home Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:40:06 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:08 am</span>
+<span class='badge badge-default'>00:00:02:012</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:06 am</td>
+        <td>
+          Validating the Landing/Home Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:08 am</td>
+        <td>
+          Landing/Home Page Title is validated sucessfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Hamburger icon click validation in Landing/Home Page</p>
+            <p class="text-sm">
+              <span>1:40:08 am</span> / <span>00:00:04:144</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Hamburger icon click validation in Landing/Home Page</h5>
+<span class='badge badge-success'>11.15.2023 1:40:08 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:12 am</span>
+<span class='badge badge-default'>00:00:04:144</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:08 am</td>
+        <td>
+          Validating the Humburger icon in Landing/Home page by clicking.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:12 am</td>
+        <td>
+          Hamburger icon is clicked successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Diaper option from Navigation menu.</p>
+            <p class="text-sm">
+              <span>1:40:12 am</span> / <span>00:00:02:321</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Diaper option from Navigation menu.</h5>
+<span class='badge badge-success'>11.15.2023 1:40:12 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:14 am</span>
+<span class='badge badge-default'>00:00:02:321</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992612375.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992612375.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:12 am</td>
+        <td>
+          Validating the Diaper option navigates to Diaper page while clicking it from navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:14 am</td>
+        <td>
+          Diaper page is loaded successfully after clicking the Diaper option in Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="57"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Diaper Page title validation</p>
+            <p class="text-sm">
+              <span>1:40:14 am</span> / <span>00:00:02:019</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Diaper Page title validation</h5>
+<span class='badge badge-success'>11.15.2023 1:40:14 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:16 am</span>
+<span class='badge badge-default'>00:00:02:019</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=57</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:14 am</td>
+        <td>
+          Validating the Diaper Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:16 am</td>
+        <td>
+          Diaper Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart</p>
+            <p class="text-sm">
+              <span>1:40:16 am</span> / <span>00:00:12:056</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart</h5>
+<span class='badge badge-success'>11.15.2023 1:40:16 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:28 am</span>
+<span class='badge badge-default'>00:00:12:056</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992616784.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992616784.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992618200.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992618200.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992626518.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992626518.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:16 am</td>
+        <td>
+          Adding Diaper to cart and selecting Pant from Navigation menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:28 am</td>
+        <td>
+          Diaper is added to the cart Sucessfully and Navigated to Pant Page from the Navigation menu
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="59"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pant Page title validation</p>
+            <p class="text-sm">
+              <span>1:40:28 am</span> / <span>00:00:02:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pant Page title validation</h5>
+<span class='badge badge-success'>11.15.2023 1:40:28 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:30 am</span>
+<span class='badge badge-default'>00:00:02:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:28 am</td>
+        <td>
+          Validating the Pant Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:30 am</td>
+        <td>
+          Pant Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Pant Size, No. of Pants, Price and adding Pant to cart.</p>
+            <p class="text-sm">
+              <span>1:40:30 am</span> / <span>00:00:11:908</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Pant Size, No. of Pants, Price and adding Pant to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:40:30 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:42 am</span>
+<span class='badge badge-default'>00:00:11:908</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992630933.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992630933.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992632130.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992632130.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992640484.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992640484.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:30 am</td>
+        <td>
+          Adding Pant to cart and selecting Wipe from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:42 am</td>
+        <td>
+          Pant is added to the cart sucessfully and Navigated to Wipe Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="61"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Wipe Page title validation.</p>
+            <p class="text-sm">
+              <span>1:40:42 am</span> / <span>00:00:02:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Wipe Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:40:42 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:44 am</span>
+<span class='badge badge-default'>00:00:02:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:42 am</td>
+        <td>
+          Validating the Wipe Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:44 am</td>
+        <td>
+          Wipe Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="62"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart</p>
+            <p class="text-sm">
+              <span>1:40:44 am</span> / <span>00:00:11:659</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart</h5>
+<span class='badge badge-success'>11.15.2023 1:40:44 am</span>
+<span class='badge badge-danger'>11.15.2023 1:40:56 am</span>
+<span class='badge badge-default'>00:00:11:659</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992644888.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992644888.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992645875.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992645875.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992654227.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992654227.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:44 am</td>
+        <td>
+          Adding Wipe to cart and selecting Newborn Gift from Navigation menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:56 am</td>
+        <td>
+          Wipe is added to the cart sucessfully and Navigated to Newborn Gift Page from the Navigation menu
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="63"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Adding Newborn Gift to cart</p>
+            <p class="text-sm">
+              <span>1:40:56 am</span> / <span>00:00:11:183</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adding Newborn Gift to cart</h5>
+<span class='badge badge-success'>11.15.2023 1:40:56 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:07 am</span>
+<span class='badge badge-default'>00:00:11:183</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=63</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992656596.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992656596.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992657058.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992657058.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992665443.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992665443.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:56 am</td>
+        <td>
+          Adding Newborn Gift to cart and selecting Diaper Bag from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:07 am</td>
+        <td>
+          Newborn Gift is added to the cart sucessfully and Navigated to Diaper Bag Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="64"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Caraa Page title validation.</p>
+            <p class="text-sm">
+              <span>1:41:07 am</span> / <span>00:00:02:015</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Caraa Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:07 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:09 am</span>
+<span class='badge badge-default'>00:00:02:015</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=64</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:07 am</td>
+        <td>
+          Validating the CaraaBag Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:09 am</td>
+        <td>
+          CaraaBag Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="65"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Adding Caraa Bag to cart.</p>
+            <p class="text-sm">
+              <span>1:41:09 am</span> / <span>00:00:11:085</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adding Caraa Bag to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:09 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:20 am</span>
+<span class='badge badge-default'>00:00:11:085</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992669814.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992669814.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992670305.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992670305.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992678605.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992678605.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:09 am</td>
+        <td>
+          Adding Caraa Bag to cart and selecting Merch from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:20 am</td>
+        <td>
+          Caraa Bag is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="66"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Merch Page title validation.</p>
+            <p class="text-sm">
+              <span>1:41:20 am</span> / <span>00:00:02:321</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Merch Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:20 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:23 am</span>
+<span class='badge badge-default'>00:00:02:321</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:20 am</td>
+        <td>
+          Validating the Merch Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:23 am</td>
+        <td>
+          Merch Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="67"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Classic Cap option from Merch Page.</p>
+            <p class="text-sm">
+              <span>1:41:23 am</span> / <span>00:00:02:651</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Classic Cap option from Merch Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:23 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:25 am</span>
+<span class='badge badge-default'>00:00:02:651</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=67</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992685746.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992685746.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:23 am</td>
+        <td>
+          Validating the Classic Cap option navigates to Classic Cap page while clicking it from Merch Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:25 am</td>
+        <td>
+          Classic Cap page is loaded successfully after clicking the Classic Cap option in Merch Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="68"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Classic Cap Page title validation.</p>
+            <p class="text-sm">
+              <span>1:41:25 am</span> / <span>00:00:02:025</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Classic Cap Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:25 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:27 am</span>
+<span class='badge badge-default'>00:00:02:025</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=68</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:25 am</td>
+        <td>
+          Validating the Classic Cap Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:27 am</td>
+        <td>
+          Classic Cap Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="69"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Classic Cap Size, colour and adding Pant to cart.</p>
+            <p class="text-sm">
+              <span>1:41:27 am</span> / <span>00:00:11:644</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Classic Cap Size, colour and adding Pant to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:27 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:39 am</span>
+<span class='badge badge-default'>00:00:11:644</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=69</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992687995.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992687995.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992688979.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992688979.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992697307.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992697307.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:27 am</td>
+        <td>
+          Adding Classic Cap to cart and selecting Merch from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:39 am</td>
+        <td>
+          Classic Cap  is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="70"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Crew Neck option from Merch Page.</p>
+            <p class="text-sm">
+              <span>1:41:39 am</span> / <span>00:00:02:915</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Crew Neck option from Merch Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:39 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:42 am</span>
+<span class='badge badge-default'>00:00:02:915</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=70</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992702359.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992702359.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:39 am</td>
+        <td>
+          Validating the Crew Neck option navigates to Crew Neck page while clicking it from Merch Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:42 am</td>
+        <td>
+          Crew Neck page is loaded successfully after clicking the Crew Neck option in Merch Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="71"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Crew Neck Page title validation.</p>
+            <p class="text-sm">
+              <span>1:41:42 am</span> / <span>00:00:02:016</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Crew Neck Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:42 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:44 am</span>
+<span class='badge badge-default'>00:00:02:016</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:42 am</td>
+        <td>
+          Validating the Crew Neck Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:44 am</td>
+        <td>
+          Crew Neck Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="72"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Crew Neck Size, colour and adding Pant to cart.</p>
+            <p class="text-sm">
+              <span>1:41:44 am</span> / <span>00:00:11:786</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Crew Neck Size, colour and adding Pant to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:44 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:56 am</span>
+<span class='badge badge-default'>00:00:11:786</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=72</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992704623.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992704623.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992705650.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992705650.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992714012.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992714012.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:44 am</td>
+        <td>
+          Adding Crew Neck to cart and selecting Merch from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:56 am</td>
+        <td>
+          Crew Neck is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="73"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Tode option from Merch Page.</p>
+            <p class="text-sm">
+              <span>1:41:56 am</span> / <span>00:00:02:794</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Tode option from Merch Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:56 am</span>
+<span class='badge badge-danger'>11.15.2023 1:41:58 am</span>
+<span class='badge badge-default'>00:00:02:794</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=73</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992718981.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992718981.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:56 am</td>
+        <td>
+          Validating the Tode option navigates to Tode page while clicking it from Merch Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:58 am</td>
+        <td>
+          Tode page is loaded successfully after clicking the Tode option in Merch Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="74"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tote Page title validation.</p>
+            <p class="text-sm">
+              <span>1:41:59 am</span> / <span>00:00:02:027</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tote Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:41:59 am</span>
+<span class='badge badge-danger'>11.15.2023 1:42:01 am</span>
+<span class='badge badge-default'>00:00:02:027</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=74</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:59 am</td>
+        <td>
+          Validating the Tote Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:42:01 am</td>
+        <td>
+          Tote Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="75"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Adding Tote to cart.</p>
+            <p class="text-sm">
+              <span>1:42:01 am</span> / <span>00:00:11:276</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adding Tote to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:42:01 am</span>
+<span class='badge badge-danger'>11.15.2023 1:42:12 am</span>
+<span class='badge badge-default'>00:00:11:276</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992721262.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992721262.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992721761.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992721761.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992730155.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992730155.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:42:01 am</td>
+        <td>
+          Adding Tote to cart and selecting Merch from Navigation menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:42:12 am</td>
+        <td>
+          Tote is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="76"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Selecting Art Print option from Merch Page.</p>
+            <p class="text-sm">
+              <span>1:42:12 am</span> / <span>00:00:02:912</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Selecting Art Print option from Merch Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:42:12 am</span>
+<span class='badge badge-danger'>11.15.2023 1:42:15 am</span>
+<span class='badge badge-default'>00:00:02:912</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=76</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992735224.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992735224.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:42:12 am</td>
+        <td>
+          Validating the Art Print option navigates to Art Print page while clicking it from Merch Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:42:15 am</td>
+        <td>
+          Art Print page is loaded successfully after clicking the Art Print option in Merch Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="77"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Art Printing Page title validation.</p>
+            <p class="text-sm">
+              <span>1:42:15 am</span> / <span>00:00:02:019</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Art Printing Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:42:15 am</span>
+<span class='badge badge-danger'>11.15.2023 1:42:17 am</span>
+<span class='badge badge-default'>00:00:02:019</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=77</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:42:15 am</td>
+        <td>
+          Validating the Art Printing Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:42:17 am</td>
+        <td>
+          Art Printing Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="78"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Adding Art Print to cart.</p>
+            <p class="text-sm">
+              <span>1:42:17 am</span> / <span>00:00:27:291</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adding Art Print to cart.</h5>
+<span class='badge badge-success'>11.15.2023 1:42:17 am</span>
+<span class='badge badge-danger'>11.15.2023 1:42:44 am</span>
+<span class='badge badge-default'>00:00:27:291</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=78</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992737462.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992737462.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992737961.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992737961.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992764566.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992764566.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:42:17 am</td>
+        <td>
+          Adding Art Print to cart and getting the products details from cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:42:44 am</td>
+        <td>
+          Art Print is added to the cart sucessfully and products details from cart is validated.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="79"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Information Page title validation.</p>
+            <p class="text-sm">
+              <span>1:42:44 am</span> / <span>00:00:28:916</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Information Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:42:44 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:13 am</span>
+<span class='badge badge-default'>00:00:28:916</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=79</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:42:44 am</td>
+        <td>
+          Validating the Information Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:13 am</td>
+        <td>
+          Information Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="80"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter the Contact Information in Information Page.</p>
+            <p class="text-sm">
+              <span>1:43:13 am</span> / <span>00:00:00:739</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter the Contact Information in Information Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:13 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:14 am</span>
+<span class='badge badge-default'>00:00:00:739</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=80</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992794269.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992794269.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:13 am</td>
+        <td>
+          Validate whether the user is able to enter the contact details in Information Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:14 am</td>
+        <td>
+          User entered the contact information successfully in Information Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="81"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Get the product details from Information page.</p>
+            <p class="text-sm">
+              <span>1:43:14 am</span> / <span>00:00:00:885</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get the product details from Information page.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:14 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:15 am</span>
+<span class='badge badge-default'>00:00:00:885</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=81</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992795158.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992795158.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:14 am</td>
+        <td>
+          Validate whether the user is able to get the product details in Information page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:15 am</td>
+        <td>
+          User got the product details successfully in Information Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="82"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product details validation from Information page.</p>
+            <p class="text-sm">
+              <span>1:43:15 am</span> / <span>00:00:00:818</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Product details validation from Information page.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:15 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:15 am</span>
+<span class='badge badge-default'>00:00:00:818</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=82</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:15 am</td>
+        <td>
+          Validate whether the user is able to validate the product details in Information page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:15 am</td>
+        <td>
+          User validated the product details successfully in Information Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="83"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Contact Information submission from Information page.</p>
+            <p class="text-sm">
+              <span>1:43:15 am</span> / <span>00:00:34:657</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Contact Information submission from Information page.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:15 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:50 am</span>
+<span class='badge badge-default'>00:00:34:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=83</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992798543.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992798543.png">
+    
+    </div></div>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992830638.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992830638.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:15 am</td>
+        <td>
+          Validate whether the user is able to submit the Contact Information in Information page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:50 am</td>
+        <td>
+          User is able to submit the Contact information successfully in Information Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="84"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Shipping Page title validation.</p>
+            <p class="text-sm">
+              <span>1:43:50 am</span> / <span>00:00:02:018</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Shipping Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:50 am</span>
+<span class='badge badge-danger'>11.15.2023 1:43:52 am</span>
+<span class='badge badge-default'>00:00:02:018</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=84</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:50 am</td>
+        <td>
+          Validating the Shipping Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:52 am</td>
+        <td>
+          Shipping Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="85"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Continue Payment button click in Shippment Page.</p>
+            <p class="text-sm">
+              <span>1:43:52 am</span> / <span>00:00:27:483</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Continue Payment button click in Shippment Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:43:52 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:20 am</span>
+<span class='badge badge-default'>00:00:27:483</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=85</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992860162.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992860162.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:52 am</td>
+        <td>
+          Validate whether the user is able to click the Continue Payment button in Shippment Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:20 am</td>
+        <td>
+          User is able click the Continue Payment button in Shippment Page
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="86"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Payment Page title validation.</p>
+            <p class="text-sm">
+              <span>1:44:20 am</span> / <span>00:00:02:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Payment Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:44:20 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:22 am</span>
+<span class='badge badge-default'>00:00:02:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=86</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:20 am</td>
+        <td>
+          Validating the Payment Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:22 am</td>
+        <td>
+          Payment Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="87"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter the Credit Card Information in Payment Page.</p>
+            <p class="text-sm">
+              <span>1:44:22 am</span> / <span>00:00:00:850</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter the Credit Card Information in Payment Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:44:22 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:23 am</span>
+<span class='badge badge-default'>00:00:00:850</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=87</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992863082.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992863082.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:22 am</td>
+        <td>
+          Validate whether the user is able to enter the Credit Card Information in Payment Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:23 am</td>
+        <td>
+          User entered the Credit Card information successfully in Payment Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="88"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pay Now button click in Payment Page.</p>
+            <p class="text-sm">
+              <span>1:44:23 am</span> / <span>00:00:00:568</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pay Now button click in Payment Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:44:23 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:23 am</span>
+<span class='badge badge-default'>00:00:00:568</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=88</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992863652.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992863652.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:23 am</td>
+        <td>
+          Validate whether the user is able to click the Pay Now button in Payment Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:23 am</td>
+        <td>
+          User is able click the Pay Now button in Payment Page
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="89"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Order Confirmation Page title validation.</p>
+            <p class="text-sm">
+              <span>1:44:23 am</span> / <span>00:00:25:197</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Order Confirmation Page title validation.</h5>
+<span class='badge badge-success'>11.15.2023 1:44:23 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:48 am</span>
+<span class='badge badge-default'>00:00:25:197</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=89</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:23 am</td>
+        <td>
+          Validating the Order Confirmation Page title against the Expected Title.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:48 am</td>
+        <td>
+          Order Confirmation Page Title is validated Sucessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="90"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Get the Order ID in Order Confirmation Page.</p>
+            <p class="text-sm">
+              <span>1:44:48 am</span> / <span>00:00:00:190</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get the Order ID in Order Confirmation Page.</h5>
+<span class='badge badge-success'>11.15.2023 1:44:48 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:49 am</span>
+<span class='badge badge-default'>00:00:00:190</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=90</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992889071.png' src="C:\Users\Desktop\OneDrive - Code Logics\eclipse-workspace_Laptop\AutomationProject\src\..\Screens\screenshots1699992889071.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:48 am</td>
+        <td>
+          Validate whether the user is able to get the Order ID in Order Confirmation Page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:49 am</td>
+        <td>
+          User is able to get the Order ID successfully in Order Confirmation Page.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="91"
+          author="Parthasarathi"
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Asserting all the validations</p>
+            <p class="text-sm">
+              <span>1:44:49 am</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Asserting all the validations</h5>
+<span class='badge badge-success'>11.15.2023 1:44:49 am</span>
+<span class='badge badge-danger'>11.15.2023 1:44:49 am</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=91</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Parthasarathi</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:44:49 am</td>
+        <td>
+          All validations assert
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:44:49 am</td>
+        <td>
+          All asserts are passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>38</span>
+</span>
+<p class="name">Parthasarathi</p>
+<p class="duration text-sm">38 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Parthasarathi</h4>
+<span status="pass" class='badge log pass-bg'>38 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:06 am</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>Landing/Home Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:08 am</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>Hamburger icon click validation in Landing/Home Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:12 am</td>
+<td>
+<a href="#" class="linked" test-id='56' id='56'>Selecting Diaper option from Navigation menu.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:14 am</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>Diaper Page title validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:16 am</td>
+<td>
+<a href="#" class="linked" test-id='58' id='58'>Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:28 am</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>Pant Page title validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:30 am</td>
+<td>
+<a href="#" class="linked" test-id='60' id='60'>Selecting Pant Size, No. of Pants, Price and adding Pant to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:42 am</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>Wipe Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:44 am</td>
+<td>
+<a href="#" class="linked" test-id='62' id='62'>Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:56 am</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>Adding Newborn Gift to cart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:07 am</td>
+<td>
+<a href="#" class="linked" test-id='64' id='64'>Caraa Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:09 am</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>Adding Caraa Bag to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:20 am</td>
+<td>
+<a href="#" class="linked" test-id='66' id='66'>Merch Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:23 am</td>
+<td>
+<a href="#" class="linked" test-id='67' id='67'>Selecting Classic Cap option from Merch Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:25 am</td>
+<td>
+<a href="#" class="linked" test-id='68' id='68'>Classic Cap Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:27 am</td>
+<td>
+<a href="#" class="linked" test-id='69' id='69'>Selecting Classic Cap Size, colour and adding Pant to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:39 am</td>
+<td>
+<a href="#" class="linked" test-id='70' id='70'>Selecting Crew Neck option from Merch Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:42 am</td>
+<td>
+<a href="#" class="linked" test-id='71' id='71'>Crew Neck Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:44 am</td>
+<td>
+<a href="#" class="linked" test-id='72' id='72'>Selecting Crew Neck Size, colour and adding Pant to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:56 am</td>
+<td>
+<a href="#" class="linked" test-id='73' id='73'>Selecting Tode option from Merch Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:59 am</td>
+<td>
+<a href="#" class="linked" test-id='74' id='74'>Tote Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:01 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='75'>Adding Tote to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:12 am</td>
+<td>
+<a href="#" class="linked" test-id='76' id='76'>Selecting Art Print option from Merch Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:15 am</td>
+<td>
+<a href="#" class="linked" test-id='77' id='77'>Art Printing Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:17 am</td>
+<td>
+<a href="#" class="linked" test-id='78' id='78'>Adding Art Print to cart.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:44 am</td>
+<td>
+<a href="#" class="linked" test-id='79' id='79'>Information Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:13 am</td>
+<td>
+<a href="#" class="linked" test-id='80' id='80'>Enter the Contact Information in Information Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:14 am</td>
+<td>
+<a href="#" class="linked" test-id='81' id='81'>Get the product details from Information page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:15 am</td>
+<td>
+<a href="#" class="linked" test-id='82' id='82'>Product details validation from Information page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:15 am</td>
+<td>
+<a href="#" class="linked" test-id='83' id='83'>Contact Information submission from Information page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:50 am</td>
+<td>
+<a href="#" class="linked" test-id='84' id='84'>Shipping Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:52 am</td>
+<td>
+<a href="#" class="linked" test-id='85' id='85'>Continue Payment button click in Shippment Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:20 am</td>
+<td>
+<a href="#" class="linked" test-id='86' id='86'>Payment Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:22 am</td>
+<td>
+<a href="#" class="linked" test-id='87' id='87'>Enter the Credit Card Information in Payment Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:23 am</td>
+<td>
+<a href="#" class="linked" test-id='88' id='88'>Pay Now button click in Payment Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:23 am</td>
+<td>
+<a href="#" class="linked" test-id='89' id='89'>Order Confirmation Page title validation.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:48 am</td>
+<td>
+<a href="#" class="linked" test-id='90' id='90'>Get the Order ID in Order Confirmation Page.</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:44:49 am</td>
+<td>
+<a href="#" class="linked" test-id='91' id='91'>Asserting all the validations</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 15, 2023 01:20:46 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 15, 2023 01:50:54 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>38</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>38</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>38</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>38</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Landing/Home Page title validation.":2.012,"Hamburger icon click validation in Landing/Home Page":4.144,"Selecting Diaper option from Navigation menu.":2.321,"Diaper Page title validation":2.019,"Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart":12.056,"Pant Page title validation":2.022,"Selecting Pant Size, No. of Pants, Price and adding Pant to cart.":11.908,"Wipe Page title validation.":2.026,"Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart":11.659,"Adding Newborn Gift to cart":11.183,"Caraa Page title validation.":2.015,"Adding Caraa Bag to cart.":11.085,"Merch Page title validation.":2.321,"Selecting Classic Cap option from Merch Page.":2.651,"Classic Cap Page title validation.":2.025,"Selecting Classic Cap Size, colour and adding Pant to cart.":11.644,"Selecting Crew Neck option from Merch Page.":2.915,"Crew Neck Page title validation.":2.016,"Selecting Crew Neck Size, colour and adding Pant to cart.":11.786,"Selecting Tode option from Merch Page.":2.794,"Tote Page title validation.":2.027,"Adding Tote to cart.":11.276,"Selecting Art Print option from Merch Page.":2.912,"Art Printing Page title validation.":2.019,"Adding Art Print to cart.":27.291,"Information Page title validation.":28.916,"Enter the Contact Information in Information Page.":0.739,"Get the product details from Information page.":0.885,"Product details validation from Information page.":0.818,"Contact Information submission from Information page.":34.657,"Shipping Page title validation.":2.018,"Continue Payment button click in Shippment Page.":27.483,"Payment Page title validation.":2.022,"Enter the Credit Card Information in Payment Page.":0.85,"Pay Now button click in Payment Page.":0.568,"Order Confirmation Page title validation.":25.197,"Get the Order ID in Order Confirmation Page.":0.19,"Asserting all the validations":0.001
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Parthasarathi</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 38,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 38,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 38
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

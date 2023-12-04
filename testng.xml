@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+  
+      <class name="coterie.TestFiles.RegUserScenario_MultipleDataSet"/>
+      <class name="coterie.TestFiles.UnregUserQB_MultipleDataSet"/>
+      <class name="coterie.TestFiles.RegUsrQB"/>
+      <class name="coterie.TestFiles.UnRegQB"/>
+      <class name="coterie.TestFiles.UnRegUserScenario"/>
+      <class name="coterie.TestFiles.RegUserScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

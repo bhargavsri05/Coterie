@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Bhargav\AppData\Local\Temp\testng-eclipse-1291773082\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="AssertAll">AssertAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="addDiaper(4, 3)">addDiaper(4, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="addPant(6)">addPant(6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="addWipe(4 Packs)">addWipe(4 Packs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="ccPayment(4242424242424242, John Doe, 1225, 123)">ccPayment(4242424242424242, John Doe, 1225, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="checkOut">checkOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="contactInfoSubmission">contactInfoSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="continuePaymentPage">continuePaymentPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="costVal">costVal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="hbIconClickHome">hbIconClickHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="homePageNav">homePageNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="invokeApplication(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&amp;x-vercel-se...)">invokeApplication(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="logInPassWord(DigiNext@123)">logInPassWord(DigiNext@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="logInUserName(parthasarathi.a@globaldigitalnext.com)">logInUserName(parthasarathi.a@globaldigitalnext.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="logInUserName(bhargav.tummala@globaldigitalnext.com)">logInUserName(bhargav.tummala@globaldigitalnext.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="orderSubmissionVal">orderSubmissionVal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="payNow">payNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="productDetails">productDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="quickBuyClick">quickBuyClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValInfoPage(Information - Coterie Staging - Checkout)">titleValInfoPage(Information - Coterie Staging - Checkout)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValLandingPage(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie)">titleValLandingPage(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValLogInPage(High-performing, Sustainable Baby Care and Wipes | Coterie)">titleValLogInPage(High-performing, Sustainable Baby Care and Wipes | Coterie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValOCPage(Thank you for your purchase! - Coterie Staging - Checkout)">titleValOCPage(Thank you for your purchase! - Coterie Staging - Checkout)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValPaymentPage(Payment - Coterie Staging - Checkout)">titleValPaymentPage(Payment - Coterie Staging - Checkout)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValShippingPage(Shipping - Coterie Staging - Checkout)">titleValShippingPage(Shipping - Coterie Staging - Checkout)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="titleValUserDBPage(Coterie | Coterie)">titleValUserDBPage(Coterie | Coterie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="totalPriceVal">totalPriceVal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="coterie.TestFiles.RegUsrQB" class="method navigator-link" hash-for-method="usrIconClick">usrIconClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">coterie.TestFiles.RegUsrQB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AssertAll">
+                  </a> <!-- AssertAll -->
+                  <span class="method-name">AssertAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDiaper(4, 3)">
+                  </a> <!-- addDiaper(4, 3) -->
+                  <span class="method-name">addDiaper</span>
+                  <span class="parameters">(4,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPant(6)">
+                  </a> <!-- addPant(6) -->
+                  <span class="method-name">addPant</span>
+                  <span class="parameters">(6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addWipe(4 Packs)">
+                  </a> <!-- addWipe(4 Packs) -->
+                  <span class="method-name">addWipe</span>
+                  <span class="parameters">(4 Packs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccPayment(4242424242424242, John Doe, 1225, 123)">
+                  </a> <!-- ccPayment(4242424242424242, John Doe, 1225, 123) -->
+                  <span class="method-name">ccPayment</span>
+                  <span class="parameters">(4242424242424242,John Doe,1225,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOut">
+                  </a> <!-- checkOut -->
+                  <span class="method-name">checkOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactInfoSubmission">
+                  </a> <!-- contactInfoSubmission -->
+                  <span class="method-name">contactInfoSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continuePaymentPage">
+                  </a> <!-- continuePaymentPage -->
+                  <span class="method-name">continuePaymentPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="costVal">
+                  </a> <!-- costVal -->
+                  <span class="method-name">costVal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hbIconClickHome">
+                  </a> <!-- hbIconClickHome -->
+                  <span class="method-name">hbIconClickHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageNav">
+                  </a> <!-- homePageNav -->
+                  <span class="method-name">homePageNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invokeApplication(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&amp;x-vercel-se...)">
+                  </a> <!-- invokeApplication(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-se...) -->
+                  <span class="method-name">invokeApplication</span>
+                  <span class="parameters">(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInPassWord(DigiNext@123)">
+                  </a> <!-- logInPassWord(DigiNext@123) -->
+                  <span class="method-name">logInPassWord</span>
+                  <span class="parameters">(DigiNext@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInUserName(parthasarathi.a@globaldigitalnext.com)">
+                  </a> <!-- logInUserName(parthasarathi.a@globaldigitalnext.com) -->
+                  <span class="method-name">logInUserName</span>
+                  <span class="parameters">(parthasarathi.a@globaldigitalnext.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInUserName(bhargav.tummala@globaldigitalnext.com)">
+                  </a> <!-- logInUserName(bhargav.tummala@globaldigitalnext.com) -->
+                  <span class="method-name">logInUserName</span>
+                  <span class="parameters">(bhargav.tummala@globaldigitalnext.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderSubmissionVal">
+                  </a> <!-- orderSubmissionVal -->
+                  <span class="method-name">orderSubmissionVal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="payNow">
+                  </a> <!-- payNow -->
+                  <span class="method-name">payNow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productDetails">
+                  </a> <!-- productDetails -->
+                  <span class="method-name">productDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickBuyClick">
+                  </a> <!-- quickBuyClick -->
+                  <span class="method-name">quickBuyClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValInfoPage(Information - Coterie Staging - Checkout)">
+                  </a> <!-- titleValInfoPage(Information - Coterie Staging - Checkout) -->
+                  <span class="method-name">titleValInfoPage</span>
+                  <span class="parameters">(Information - Coterie Staging - Checkout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValLandingPage(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie)">
+                  </a> <!-- titleValLandingPage(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie) -->
+                  <span class="method-name">titleValLandingPage</span>
+                  <span class="parameters">(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValLogInPage(High-performing, Sustainable Baby Care and Wipes | Coterie)">
+                  </a> <!-- titleValLogInPage(High-performing, Sustainable Baby Care and Wipes | Coterie) -->
+                  <span class="method-name">titleValLogInPage</span>
+                  <span class="parameters">(High-performing, Sustainable Baby Care and Wipes | Coterie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValOCPage(Thank you for your purchase! - Coterie Staging - Checkout)">
+                  </a> <!-- titleValOCPage(Thank you for your purchase! - Coterie Staging - Checkout) -->
+                  <span class="method-name">titleValOCPage</span>
+                  <span class="parameters">(Thank you for your purchase! - Coterie Staging - Checkout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValPaymentPage(Payment - Coterie Staging - Checkout)">
+                  </a> <!-- titleValPaymentPage(Payment - Coterie Staging - Checkout) -->
+                  <span class="method-name">titleValPaymentPage</span>
+                  <span class="parameters">(Payment - Coterie Staging - Checkout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValShippingPage(Shipping - Coterie Staging - Checkout)">
+                  </a> <!-- titleValShippingPage(Shipping - Coterie Staging - Checkout) -->
+                  <span class="method-name">titleValShippingPage</span>
+                  <span class="parameters">(Shipping - Coterie Staging - Checkout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValUserDBPage(Coterie | Coterie)">
+                  </a> <!-- titleValUserDBPage(Coterie | Coterie) -->
+                  <span class="method-name">titleValUserDBPage</span>
+                  <span class="parameters">(Coterie | Coterie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalPriceVal">
+                  </a> <!-- totalPriceVal -->
+                  <span class="method-name">totalPriceVal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usrIconClick">
+                  </a> <!-- usrIconClick -->
+                  <span class="method-name">usrIconClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bhargav\AppData\Local\Temp\testng-eclipse-1291773082\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;coterie.TestFiles.RegUsrQB&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'titleValOCPage')
+data.setCell(0, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(0, 3, 19243);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'contactInfoSubmission')
+data.setCell(1, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(1, 3, 17041);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'titleValInfoPage')
+data.setCell(2, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(2, 3, 14783);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invokeApplication')
+data.setCell(3, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(3, 3, 12930);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addDiaper')
+data.setCell(4, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(4, 3, 7580);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'titleValPaymentPage')
+data.setCell(5, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(5, 3, 7435);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logInUserName')
+data.setCell(6, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(6, 3, 7043);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logInUserName')
+data.setCell(7, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(7, 3, 6958);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logInPassWord')
+data.setCell(8, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(8, 3, 6846);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'titleValUserDBPage')
+data.setCell(9, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(9, 3, 6072);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'titleValLogInPage')
+data.setCell(10, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(10, 3, 5057);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addPant')
+data.setCell(11, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(11, 3, 4935);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'hbIconClickHome')
+data.setCell(12, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(12, 3, 4234);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addWipe')
+data.setCell(13, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(13, 3, 2815);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'continuePaymentPage')
+data.setCell(14, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(14, 3, 2719);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkOut')
+data.setCell(15, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(15, 3, 2680);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'quickBuyClick')
+data.setCell(16, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(16, 3, 2452);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'usrIconClick')
+data.setCell(17, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(17, 3, 2201);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'titleValLandingPage')
+data.setCell(18, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(18, 3, 2155);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ccPayment')
+data.setCell(19, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(19, 3, 2137);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'titleValShippingPage')
+data.setCell(20, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(20, 3, 2050);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'payNow')
+data.setCell(21, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(21, 3, 1285);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'homePageNav')
+data.setCell(22, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(22, 3, 980);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'totalPriceVal')
+data.setCell(23, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(23, 3, 500);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'costVal')
+data.setCell(24, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(24, 3, 398);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'orderSubmissionVal')
+data.setCell(25, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(25, 3, 351);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'productDetails')
+data.setCell(26, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(26, 3, 343);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'AssertAll')
+data.setCell(27, 2, 'coterie.TestFiles.RegUsrQB')
+data.setCell(27, 3, 4);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">coterie.TestFiles.RegUsrQB</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">invokeApplication(https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-se...)</span>
+                <span class="method-start">1400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValLandingPage(Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie)</span>
+                <span class="method-start">14518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hbIconClickHome</span>
+                <span class="method-start">16676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usrIconClick</span>
+                <span class="method-start">20932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValLogInPage(High-performing, Sustainable Baby Care and Wipes | Coterie)</span>
+                <span class="method-start">23606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInUserName(parthasarathi.a@globaldigitalnext.com)</span>
+                <span class="method-start">28828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInUserName(bhargav.tummala@globaldigitalnext.com)</span>
+                <span class="method-start">35871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInPassWord(DigiNext@123)</span>
+                <span class="method-start">42945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValUserDBPage(Coterie | Coterie)</span>
+                <span class="method-start">49877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homePageNav</span>
+                <span class="method-start">55954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quickBuyClick</span>
+                <span class="method-start">56935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addDiaper(4, 3)</span>
+                <span class="method-start">59458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addPant(6)</span>
+                <span class="method-start">67100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addWipe(4 Packs)</span>
+                <span class="method-start">72096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">costVal</span>
+                <span class="method-start">74912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOut</span>
+                <span class="method-start">75312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValInfoPage(Information - Coterie Staging - Checkout)</span>
+                <span class="method-start">78058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productDetails</span>
+                <span class="method-start">92841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalPriceVal</span>
+                <span class="method-start">93186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactInfoSubmission</span>
+                <span class="method-start">93689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValShippingPage(Shipping - Coterie Staging - Checkout)</span>
+                <span class="method-start">110796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continuePaymentPage</span>
+                <span class="method-start">112849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValPaymentPage(Payment - Coterie Staging - Checkout)</span>
+                <span class="method-start">115609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ccPayment(4242424242424242, John Doe, 1225, 123)</span>
+                <span class="method-start">123094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">payNow</span>
+                <span class="method-start">125232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValOCPage(Thank you for your purchase! - Coterie Staging - Checkout)</span>
+                <span class="method-start">126607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orderSubmissionVal</span>
+                <span class="method-start">145853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AssertAll</span>
+                <span class="method-start">146205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">146210 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,842 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>139/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 15 01:20:44 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1810 seconds (1810947 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario_MultipleDataSet.regUserScenario()'><b>regUserScenario</b><br>Test class: coterie.TestFiles.RegUserScenario_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, bhargav.tummala@globaldigitalnext.com, DigiNext@123, 4242424242424242, John Doe, 1225, 123</td>
+<td><div><pre>java.lang.AssertionError: Unexpected error while clicking the Hamburger icon in Home/Landing Page: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f9b6d622ea6ae1456172882493dd86d, isElementDisplayed {id=DD112E3F64B093335523567871EA97A5_element_101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Desktop\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f9b6d622ea6ae1456172882493dd86d)] -&gt; xpath: //div[contains(@class,&apos;pdpContainer&apos;)]/div[1]/div[4]/div/div[2]]
+Session ID: 2f9b6d622ea6ae1456172882493dd86d
+	at coterie.TestFiles.RegUserScenario_MultipleDataSet.regUserScenario(RegUserScenario_MultipleDataSet.java:222)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1609735819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1609735819'><pre>java.lang.AssertionError: Unexpected error while clicking the Hamburger icon in Home/Landing Page: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f9b6d622ea6ae1456172882493dd86d, isElementDisplayed {id=DD112E3F64B093335523567871EA97A5_element_101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Desktop\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f9b6d622ea6ae1456172882493dd86d)] -&gt; xpath: //div[contains(@class,&apos;pdpContainer&apos;)]/div[1]/div[4]/div/div[2]]
+Session ID: 2f9b6d622ea6ae1456172882493dd86d
+	at org.testng.Assert.fail(Assert.java:111)
+	at coterie.TestFiles.RegUserScenario_MultipleDataSet.regUserScenario(RegUserScenario_MultipleDataSet.java:222)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>69</td>
+<td>coterie.TestFiles.RegUserScenario_MultipleDataSet@606e4010</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.invokeApplication()'><b>invokeApplication</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.continuePaymentPage()'><b>continuePaymentPage</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>12</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.addWipe()'><b>addWipe</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>1</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValLandingPage()'><b>titleValLandingPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.checkOut()'><b>checkOut</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>16</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.addWipe()'><b>addWipe</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>1</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnregUserQB_MultipleDataSet.unRegUserQB()'><b>unRegUserQB</b><br>Test class: coterie.TestFiles.UnregUserQB_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, 3, test5010@yopmail.com, Tester, Coterie, 789 Main Street, White Plains, New York, 10601, 8443006489, 4242424242424242, Tester Coterie, 1225, 123</td>
+<td></td>
+<td>130</td>
+<td>coterie.TestFiles.UnregUserQB_MultipleDataSet@6d60fe40</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.contactInfoSubmission()'><b>contactInfoSubmission</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>35</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.homePageNav()'><b>homePageNav</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.hbIconClickHome()'><b>hbIconClickHome</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>4</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValcaraaBagPage()'><b>titleValcaraaBagPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Caraa Bag | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.navmenu_Diaper_Select()'><b>navmenu_Diaper_Select</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.orderSubmissionVal()'><b>orderSubmissionVal</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.logInPassWord()'><b>logInPassWord</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: DigiNext@123</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.AssertAll()'><b>AssertAll</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValShippingPage()'><b>titleValShippingPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Shipping - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValAPPage()'><b>titleValAPPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: The Art Print | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValOCPage()'><b>titleValOCPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Thank you for your purchase! - Coterie Staging - Checkout</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.addDiaper()'><b>addDiaper</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: 3</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.caraaBag_addCart()'><b>caraaBag_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.invokeApplication()'><b>invokeApplication</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true</td>
+<td></td>
+<td>24</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.titleValOCPage()'><b>titleValOCPage</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: Thank you for your purchase! - Coterie Staging - Checkout</td>
+<td></td>
+<td>25</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_CrewNeck_Select()'><b>merch_CrewNeck_Select</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_ClassicalCap_addCart()'><b>merch_ClassicalCap_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.totalPriceVal()'><b>totalPriceVal</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValClassicCapPage()'><b>titleValClassicCapPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: The Classic Cap | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.ccPayment()'><b>ccPayment</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.hbIconClickHome()'><b>hbIconClickHome</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>4</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.contactInfoSubmission()'><b>contactInfoSubmission</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>20</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.productDetails()'><b>productDetails</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_CrewNeck_addCart()'><b>merch_CrewNeck_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.productDetails()'><b>productDetails</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.AssertAll()'><b>AssertAll</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValLogInPage()'><b>titleValLogInPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: High-performing, Sustainable Baby Care and Wipes | Coterie</td>
+<td></td>
+<td>5</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.ccPayment()'><b>ccPayment</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_CrewNeck_addCart()'><b>merch_CrewNeck_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_Tode_Select()'><b>merch_Tode_Select</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_Totte_addCart()'><b>merch_Totte_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.wipe_addCart()'><b>wipe_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.orderSubmissionVal()'><b>orderSubmissionVal</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.usrIconClick()'><b>usrIconClick</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.hbIconClick()'><b>hbIconClick</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>4</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.totalPriceVal()'><b>totalPriceVal</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValWipePage()'><b>titleValWipePage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Hypoallergenic Baby Wipes | 99% Water and Plant-based Fibers | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.contactInfoSubmission()'><b>contactInfoSubmission</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>34</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.quickBuyClick()'><b>quickBuyClick</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.logInUserName()'><b>logInUserName</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: parthasarathi.a@globaldigitalnext.com</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.titleValInfoPage()'><b>titleValInfoPage</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: Information - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.productDetails()'><b>productDetails</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.logInUserName()'><b>logInUserName</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: parthasarathi.a@globaldigitalnext.com</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValShippingPage()'><b>titleValShippingPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Shipping - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.logInPassWord()'><b>logInPassWord</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: DigiNext@123</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.hbIconClick()'><b>hbIconClick</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>4</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.payNow()'><b>payNow</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.usrIconClick()'><b>usrIconClick</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.productDetails()'><b>productDetails</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValOCPage()'><b>titleValOCPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Thank you for your purchase! - Coterie Staging - Checkout</td>
+<td></td>
+<td>25</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.diaper_addCart()'><b>diaper_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>12</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValTotePage()'><b>titleValTotePage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: The Tote | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.totalPriceVal()'><b>totalPriceVal</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.checkOut()'><b>checkOut</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario_MultipleDataSet.regUserScenario()'><b>regUserScenario</b><br>Test class: coterie.TestFiles.RegUserScenario_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, parthasarathi.a@globaldigitalnext.com, DigiNext@123, 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>186</td>
+<td>coterie.TestFiles.RegUserScenario_MultipleDataSet@606e4010</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.continuePaymentPage()'><b>continuePaymentPage</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>13</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.pant_addCart()'><b>pant_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>12</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValPaymentPage()'><b>titleValPaymentPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Payment - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValDiaperPage()'><b>titleValDiaperPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Coterie Diapers | Pricing, Cost, Reviews | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValLandingPage()'><b>titleValLandingPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.logInUserName()'><b>logInUserName</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: bhargav.tummala@globaldigitalnext.com</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.nbGift_addCart()'><b>nbGift_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.diaper_addCart()'><b>diaper_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>12</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValWipePage()'><b>titleValWipePage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Hypoallergenic Baby Wipes | 99% Water and Plant-based Fibers | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_ArtPrint_Select()'><b>merch_ArtPrint_Select</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValPaymentPage()'><b>titleValPaymentPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Payment - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_ClassicalCap_Select()'><b>merch_ClassicalCap_Select</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.titleValLandingPage()'><b>titleValLandingPage</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.addressData()'><b>addressData</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: test50145460@yopmail.com, John, Doe, 123 Main Street, White Plains, New York, 10601, 5465654654</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.invokeApplication()'><b>invokeApplication</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true</td>
+<td></td>
+<td>30</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.titleValShippingPage()'><b>titleValShippingPage</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: Shipping - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.ccPayment()'><b>ccPayment</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.invokeApplication()'><b>invokeApplication</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true</td>
+<td></td>
+<td>22</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValmerchPage()'><b>titleValmerchPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: SYLP | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValUserDBPage()'><b>titleValUserDBPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Coterie | Coterie</td>
+<td></td>
+<td>5</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValcaraaBagPage()'><b>titleValcaraaBagPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Caraa Bag | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_ArtPrint_addCart()'><b>merch_ArtPrint_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>27</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.AssertAll()'><b>AssertAll</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.orderSubmissionVal()'><b>orderSubmissionVal</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValInfoPage()'><b>titleValInfoPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Information - Coterie Staging - Checkout</td>
+<td></td>
+<td>28</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.addPant()'><b>addPant</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>1</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValmerchPage()'><b>titleValmerchPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: SYLP | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_Totte_addCart()'><b>merch_Totte_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.payNow()'><b>payNow</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValAPPage()'><b>titleValAPPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: The Art Print | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_ArtPrint_addCart()'><b>merch_ArtPrint_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>27</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.payNow()'><b>payNow</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.wipe_addCart()'><b>wipe_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.orderSubmissionVal()'><b>orderSubmissionVal</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValDiaperPage()'><b>titleValDiaperPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Coterie Diapers | Pricing, Cost, Reviews | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValClassicCapPage()'><b>titleValClassicCapPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: The Classic Cap | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValLandingPage()'><b>titleValLandingPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Coterie Diapers, Baby Wipes | High-performing, Clean, Sustainable Baby Care | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.navmenu_Diaper_Select()'><b>navmenu_Diaper_Select</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.quickBuyClick()'><b>quickBuyClick</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario_MultipleDataSet.regUserScenario()'><b>regUserScenario</b><br>Test class: coterie.TestFiles.RegUserScenario_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, testercoterie@gmail.com, DigiNext@123, 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>175</td>
+<td>coterie.TestFiles.RegUserScenario_MultipleDataSet@606e4010</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValPantPage()'><b>titleValPantPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: Coterie The Pant | Refastenable Potty Training Pants | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_ClassicalCap_addCart()'><b>merch_ClassicalCap_addCart</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.titleValPaymentPage()'><b>titleValPaymentPage</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: Payment - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValShippingPage()'><b>titleValShippingPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Shipping - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.merch_CrewNeck_Select()'><b>merch_CrewNeck_Select</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_ArtPrint_Select()'><b>merch_ArtPrint_Select</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.addPant()'><b>addPant</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>1</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValCrewNeckPage()'><b>titleValCrewNeckPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: The Crewneck | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.nbGift_addCart()'><b>nbGift_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.costVal()'><b>costVal</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValUserDBPage()'><b>titleValUserDBPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Coterie | Coterie</td>
+<td></td>
+<td>25</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.continuePaymentPage()'><b>continuePaymentPage</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>27</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValInfoPage()'><b>titleValInfoPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Information - Coterie Staging - Checkout</td>
+<td></td>
+<td>9</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.titleValTotePage()'><b>titleValTotePage</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: The Tote | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.contactInfoSubmission()'><b>contactInfoSubmission</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>17</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.addressData()'><b>addressData</b><br>Test class: coterie.TestFiles.UnRegUserScenario<br>Parameters: test50145460@yopmail.com, John, Doe, 123 Main Street, White Plains, New York, 10601, 5465654654</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.caraaBag_addCart()'><b>caraaBag_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.AssertAll()'><b>AssertAll</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.pant_addCart()'><b>pant_addCart</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>11</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegUserScenario.continuePaymentPage()'><b>continuePaymentPage</b><br>Test class: coterie.TestFiles.UnRegUserScenario</td>
+<td></td>
+<td>27</td>
+<td>coterie.TestFiles.UnRegUserScenario@514646ef</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.payNow()'><b>payNow</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.addDiaper()'><b>addDiaper</b><br>Test class: coterie.TestFiles.UnRegQB<br>Parameters: 3</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.ccPayment()'><b>ccPayment</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValInfoPage()'><b>titleValInfoPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Information - Coterie Staging - Checkout</td>
+<td></td>
+<td>29</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_ClassicalCap_Select()'><b>merch_ClassicalCap_Select</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnregUserQB_MultipleDataSet.unRegUserQB()'><b>unRegUserQB</b><br>Test class: coterie.TestFiles.UnregUserQB_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, 3, test50145460@yopmail.com, John, Doe, 123 Main Street, White Plains, New York, 10601, 5465654654, 4242424242424242, John Doe, 1225, 123</td>
+<td></td>
+<td>160</td>
+<td>coterie.TestFiles.UnregUserQB_MultipleDataSet@6d60fe40</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.titleValPaymentPage()'><b>titleValPaymentPage</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: Payment - Coterie Staging - Checkout</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.costVal()'><b>costVal</b><br>Test class: coterie.TestFiles.RegUsrQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnregUserQB_MultipleDataSet.unRegUserQB()'><b>unRegUserQB</b><br>Test class: coterie.TestFiles.UnregUserQB_MultipleDataSet<br>Parameters: https://staging.coterie.com/?x-vercel-protection-bypass=n2fXOzfMVrYLqxOCvjRq0QgJsqqly3LX&x-vercel-set-bypass-cookie=true, 3, test50145@yopmail.com, Random, Guy, 456 Main Street, White Plains, New York, 10601, 8486850011, 4242424242424242, Random Guy, 1225, 123</td>
+<td></td>
+<td>170</td>
+<td>coterie.TestFiles.UnregUserQB_MultipleDataSet@6d60fe40</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValCrewNeckPage()'><b>titleValCrewNeckPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: The Crewneck | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUsrQB.logInUserName()'><b>logInUserName</b><br>Test class: coterie.TestFiles.RegUsrQB<br>Parameters: bhargav.tummala@globaldigitalnext.com</td>
+<td></td>
+<td>6</td>
+<td>coterie.TestFiles.RegUsrQB@19932c16</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValLogInPage()'><b>titleValLogInPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: High-performing, Sustainable Baby Care and Wipes | Coterie</td>
+<td></td>
+<td>5</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.UnRegQB.totalPriceVal()'><b>totalPriceVal</b><br>Test class: coterie.TestFiles.UnRegQB</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.UnRegQB@73eb439a</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValPantPage()'><b>titleValPantPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Coterie The Pant | Refastenable Potty Training Pants | Coterie</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.merch_Tode_Select()'><b>merch_Tode_Select</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>2</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.titleValOCPage()'><b>titleValOCPage</b><br>Test class: coterie.TestFiles.RegUserScenario<br>Parameters: Thank you for your purchase! - Coterie Staging - Checkout</td>
+<td></td>
+<td>25</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+<tr>
+<td title='coterie.TestFiles.RegUserScenario.homePageNav()'><b>homePageNav</b><br>Test class: coterie.TestFiles.RegUserScenario</td>
+<td></td>
+<td>0</td>
+<td>coterie.TestFiles.RegUserScenario@305ffe9e</td></tr>
+</table><p>
+</body>
+</html>

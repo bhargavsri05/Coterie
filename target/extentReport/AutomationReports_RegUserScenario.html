@@ -1,0 +1,3104 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExtentReports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7e408aed24af91e1ad76f49a74ecfa0ef1d97cfb/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report dark">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">ExtentReports</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Nov 30, 2023 11:28:27 pm</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="page-container">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-user"></i>
+					</a>
+					<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" href="#">Parthasarathi</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Landing/Home Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+69ms</p>
+							<span class="datetime">23:28:55 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Landing/Home Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:28:55</span>
+									<span class='badge badge-danger'>11.30.2023 23:28:57</span>
+									<span class='badge badge-default'>0h 0m 2s+69ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:28:55 pm</td>
+				<td>
+						Validating the Landing/Home Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:57 pm</td>
+				<td>
+						Landing/Home Page Title is validated sucessfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Hamburger icon click validation in Landing/Home Page</p>
+							<p class="duration text-sm">0h 0m 4s+134ms</p>
+							<span class="datetime">23:28:57 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Hamburger icon click validation in Landing/Home Page</h5>
+									<span class='badge badge-success'>11.30.2023 23:28:57</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:01</span>
+									<span class='badge badge-default'>0h 0m 4s+134ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:28:57 pm</td>
+				<td>
+						Validating the Humburger icon in Landing/Home page by clicking.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:01 pm</td>
+				<td>
+						Hamburger icon is clicked successfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">User icon click validation in Landing/Home Page</p>
+							<p class="duration text-sm">0h 0m 2s+249ms</p>
+							<span class="datetime">23:29:01 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">User icon click validation in Landing/Home Page</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:01</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:04</span>
+									<span class='badge badge-default'>0h 0m 2s+249ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:01 pm</td>
+				<td>
+						Validating the User icon in Landing/Home page by clicking.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:04 pm</td>
+				<td>
+						User icon is clicked successfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367142121.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367142121.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="4"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Login Page title validation.</p>
+							<p class="duration text-sm">0h 0m 5s+21ms</p>
+							<span class="datetime">23:29:04 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Login Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:04</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:09</span>
+									<span class='badge badge-default'>0h 0m 5s+21ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:04 pm</td>
+				<td>
+						Validating the Login Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:09 pm</td>
+				<td>
+						Login Page Title is validated sucessfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="5"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Getting the UserName and click next Validation</p>
+							<p class="duration text-sm">0h 0m 6s+423ms</p>
+							<span class="datetime">23:29:09 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Getting the UserName and click next Validation</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:09</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:15</span>
+									<span class='badge badge-default'>0h 0m 6s+423ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:09 pm</td>
+				<td>
+						Validating the username field is enabled and user is able to enter username
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:15 pm</td>
+				<td>
+						Username is entered successfuly and Next button is clicked
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367151779.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367151779.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367156087.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367156087.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Getting the UserName and click next Validation</p>
+							<p class="duration text-sm">0h 0m 6s+340ms</p>
+							<span class="datetime">23:29:16 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Getting the UserName and click next Validation</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:16</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:22</span>
+									<span class='badge badge-default'>0h 0m 6s+340ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:16 pm</td>
+				<td>
+						Validating the username field is enabled and user is able to enter username
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:22 pm</td>
+				<td>
+						Username is entered successfuly and Next button is clicked
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367158335.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367158335.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367162578.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367162578.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Getting the Password and click next Validation</p>
+							<p class="duration text-sm">0h 0m 6s+322ms</p>
+							<span class="datetime">23:29:22 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Getting the Password and click next Validation</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:22</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:28</span>
+									<span class='badge badge-default'>0h 0m 6s+322ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:22 pm</td>
+				<td>
+						Validating the password field is enabled and user is able to enter password
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:28 pm</td>
+				<td>
+						password is entered successfuly and Next button is clicked
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367164866.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367164866.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367169116.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367169116.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="8"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">User Dashboard Page title validation.</p>
+							<p class="duration text-sm">0h 0m 27s+472ms</p>
+							<span class="datetime">23:29:29 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">User Dashboard Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:29</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:56</span>
+									<span class='badge badge-default'>0h 0m 27s+472ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:29 pm</td>
+				<td>
+						Validating the User Dashboard Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:56 pm</td>
+				<td>
+						User Dashboard Page Title is validated sucessfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="9"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Landing/Home Page Navigation from User Dashboard Page validation.</p>
+							<p class="duration text-sm">0h 0m 0s+263ms</p>
+							<span class="datetime">23:29:56 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Landing/Home Page Navigation from User Dashboard Page validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:56</span>
+									<span class='badge badge-danger'>11.30.2023 23:29:56</span>
+									<span class='badge badge-default'>0h 0m 0s+263ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:56 pm</td>
+				<td>
+						Validating the navigation from User Dashboard Page validation to Landing/Home Page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:56 pm</td>
+				<td>
+						Page is navigated to Landing/Home Page successfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367196792.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367196792.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367197058.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367197058.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="10"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Hamburger icon click validation in Landing/Home Page</p>
+							<p class="duration text-sm">0h 0m 4s+112ms</p>
+							<span class="datetime">23:29:57 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Hamburger icon click validation in Landing/Home Page</h5>
+									<span class='badge badge-success'>11.30.2023 23:29:57</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:01</span>
+									<span class='badge badge-default'>0h 0m 4s+112ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:29:57 pm</td>
+				<td>
+						Validating the Humburger icon in Landing/Home page by clicking.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:01 pm</td>
+				<td>
+						Hamburger icon is clicked successfully.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="11"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Diaper option from Navigation menu.</p>
+							<p class="duration text-sm">0h 0m 2s+294ms</p>
+							<span class="datetime">23:30:01 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Diaper option from Navigation menu.</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:01</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:03</span>
+									<span class='badge badge-default'>0h 0m 2s+294ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:01 pm</td>
+				<td>
+						Validating the Diaper option navigates to Diaper page while clicking it from navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:03 pm</td>
+				<td>
+						Diaper page is loaded successfully after clicking the Diaper option in Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367201312.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367201312.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="12"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Diaper Page title validation</p>
+							<p class="duration text-sm">0h 0m 2s+18ms</p>
+							<span class="datetime">23:30:03 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Diaper Page title validation</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:03</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:05</span>
+									<span class='badge badge-default'>0h 0m 2s+18ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:03 pm</td>
+				<td>
+						Validating the Diaper Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:05 pm</td>
+				<td>
+						Diaper Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="13"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart</p>
+							<p class="duration text-sm">0h 0m 15s+904ms</p>
+							<span class="datetime">23:30:05 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:05</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:21</span>
+									<span class='badge badge-default'>0h 0m 15s+904ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:05 pm</td>
+				<td>
+						Adding Diaper to cart and selecting Pant from Navigation menu
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:21 pm</td>
+				<td>
+						Diaper is added to the cart Sucessfully and Navigated to Pant Page from the Navigation menu
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367205730.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367205730.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367210938.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367210938.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367219330.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367219330.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="14"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Pant Page title validation</p>
+							<p class="duration text-sm">0h 0m 2s+11ms</p>
+							<span class="datetime">23:30:21 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Pant Page title validation</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:21</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:23</span>
+									<span class='badge badge-default'>0h 0m 2s+11ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:21 pm</td>
+				<td>
+						Validating the Pant Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:23 pm</td>
+				<td>
+						Pant Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="15"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Pant Size, No. of Pants, Price and adding Pant to cart.</p>
+							<p class="duration text-sm">0h 0m 15s+983ms</p>
+							<span class="datetime">23:30:23 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Pant Size, No. of Pants, Price and adding Pant to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:23</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:39</span>
+									<span class='badge badge-default'>0h 0m 15s+983ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:23 pm</td>
+				<td>
+						Adding Pant to cart and selecting Wipe from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:39 pm</td>
+				<td>
+						Pant is added to the cart sucessfully and Navigated to Wipe Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367223793.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367223793.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367229012.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367229012.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367237410.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367237410.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="16"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Wipe Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+28ms</p>
+							<span class="datetime">23:30:39 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Wipe Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:39</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:41</span>
+									<span class='badge badge-default'>0h 0m 2s+28ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:39 pm</td>
+				<td>
+						Validating the Wipe Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:41 pm</td>
+				<td>
+						Wipe Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="17"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart</p>
+							<p class="duration text-sm">0h 0m 13s+627ms</p>
+							<span class="datetime">23:30:41 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:41</span>
+									<span class='badge badge-danger'>11.30.2023 23:30:55</span>
+									<span class='badge badge-default'>0h 0m 13s+627ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:41 pm</td>
+				<td>
+						Adding Wipe to cart and selecting Newborn Gift from Navigation menu
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:55 pm</td>
+				<td>
+						Wipe is added to the cart sucessfully and Navigated to Newborn Gift Page from the Navigation menu
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367241877.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367241877.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367244847.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367244847.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367253195.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367253195.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="18"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Adding Newborn Gift to cart</p>
+							<p class="duration text-sm">0h 0m 11s+132ms</p>
+							<span class="datetime">23:30:55 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Adding Newborn Gift to cart</h5>
+									<span class='badge badge-success'>11.30.2023 23:30:55</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:06</span>
+									<span class='badge badge-default'>0h 0m 11s+132ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:30:55 pm</td>
+				<td>
+						Adding Newborn Gift to cart and selecting Diaper Bag from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:06 pm</td>
+				<td>
+						Newborn Gift is added to the cart sucessfully and Navigated to Diaper Bag Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367255518.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367255518.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367255964.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367255964.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367264295.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367264295.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="19"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Caraa Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+18ms</p>
+							<span class="datetime">23:31:06 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Caraa Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:06</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:08</span>
+									<span class='badge badge-default'>0h 0m 2s+18ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:06 pm</td>
+				<td>
+						Validating the CaraaBag Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:08 pm</td>
+				<td>
+						CaraaBag Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="20"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Adding Caraa Bag to cart.</p>
+							<p class="duration text-sm">0h 0m 11s+152ms</p>
+							<span class="datetime">23:31:08 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Adding Caraa Bag to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:08</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:19</span>
+									<span class='badge badge-default'>0h 0m 11s+152ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:08 pm</td>
+				<td>
+						Adding Caraa Bag to cart and selecting Merch from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:19 pm</td>
+				<td>
+						Caraa Bag is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367268700.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367268700.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367269183.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367269183.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367277563.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367277563.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="21"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Merch Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+338ms</p>
+							<span class="datetime">23:31:19 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Merch Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:19</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:22</span>
+									<span class='badge badge-default'>0h 0m 2s+338ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:19 pm</td>
+				<td>
+						Validating the Merch Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:22 pm</td>
+				<td>
+						Merch Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="22"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Classic Cap option from Merch Page.</p>
+							<p class="duration text-sm">0h 0m 2s+617ms</p>
+							<span class="datetime">23:31:22 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Classic Cap option from Merch Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:22</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:24</span>
+									<span class='badge badge-default'>0h 0m 2s+617ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:22 pm</td>
+				<td>
+						Validating the Classic Cap option navigates to Classic Cap page while clicking it from Merch Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:24 pm</td>
+				<td>
+						Classic Cap page is loaded successfully after clicking the Classic Cap option in Merch Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367284703.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367284703.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="23"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Classic Cap Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+16ms</p>
+							<span class="datetime">23:31:24 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Classic Cap Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:24</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:26</span>
+									<span class='badge badge-default'>0h 0m 2s+16ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:24 pm</td>
+				<td>
+						Validating the Classic Cap Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:26 pm</td>
+				<td>
+						Classic Cap Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="24"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Classic Cap Size, colour and adding Pant to cart.</p>
+							<p class="duration text-sm">0h 0m 15s+776ms</p>
+							<span class="datetime">23:31:26 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Classic Cap Size, colour and adding Pant to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:26</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:42</span>
+									<span class='badge badge-default'>0h 0m 15s+776ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:26 pm</td>
+				<td>
+						Adding Classic Cap to cart and selecting Merch from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:42 pm</td>
+				<td>
+						Classic Cap  is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367287004.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367287004.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367292005.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367292005.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367300395.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367300395.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="25"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Crew Neck option from Merch Page.</p>
+							<p class="duration text-sm">0h 0m 2s+544ms</p>
+							<span class="datetime">23:31:42 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Crew Neck option from Merch Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:42</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:45</span>
+									<span class='badge badge-default'>0h 0m 2s+544ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:42 pm</td>
+				<td>
+						Validating the Crew Neck option navigates to Crew Neck page while clicking it from Merch Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:45 pm</td>
+				<td>
+						Crew Neck page is loaded successfully after clicking the Crew Neck option in Merch Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367305247.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367305247.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="26"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Crew Neck Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+27ms</p>
+							<span class="datetime">23:31:45 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Crew Neck Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:45</span>
+									<span class='badge badge-danger'>11.30.2023 23:31:47</span>
+									<span class='badge badge-default'>0h 0m 2s+27ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:45 pm</td>
+				<td>
+						Validating the Crew Neck Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:47 pm</td>
+				<td>
+						Crew Neck Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="27"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Crew Neck Size, colour and adding Pant to cart.</p>
+							<p class="duration text-sm">0h 0m 15s+923ms</p>
+							<span class="datetime">23:31:47 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Crew Neck Size, colour and adding Pant to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:31:47</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:03</span>
+									<span class='badge badge-default'>0h 0m 15s+923ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:31:47 pm</td>
+				<td>
+						Adding Crew Neck to cart and selecting Merch from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:03 pm</td>
+				<td>
+						Crew Neck is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367307524.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367307524.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367312671.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367312671.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367321080.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367321080.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="28"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Tode option from Merch Page.</p>
+							<p class="duration text-sm">0h 0m 2s+624ms</p>
+							<span class="datetime">23:32:03 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Tode option from Merch Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:03</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:05</span>
+									<span class='badge badge-default'>0h 0m 2s+624ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:03 pm</td>
+				<td>
+						Validating the Tode option navigates to Tode page while clicking it from Merch Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:05 pm</td>
+				<td>
+						Tode page is loaded successfully after clicking the Tode option in Merch Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367326022.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367326022.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="29"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Tote Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+16ms</p>
+							<span class="datetime">23:32:06 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Tote Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:06</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:08</span>
+									<span class='badge badge-default'>0h 0m 2s+16ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:06 pm</td>
+				<td>
+						Validating the Tote Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:08 pm</td>
+				<td>
+						Tote Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="30"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Adding Tote to cart.</p>
+							<p class="duration text-sm">0h 0m 11s+163ms</p>
+							<span class="datetime">23:32:08 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Adding Tote to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:08</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:19</span>
+									<span class='badge badge-default'>0h 0m 11s+163ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:08 pm</td>
+				<td>
+						Adding Tote to cart and selecting Merch from Navigation menu.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:19 pm</td>
+				<td>
+						Tote is added to the cart sucessfully and Navigated to Merch Page from the Navigation menu.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367328262.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367328262.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367328754.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367328754.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367337112.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367337112.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="31"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Selecting Art Print option from Merch Page.</p>
+							<p class="duration text-sm">0h 0m 2s+539ms</p>
+							<span class="datetime">23:32:19 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Selecting Art Print option from Merch Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:19</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:21</span>
+									<span class='badge badge-default'>0h 0m 2s+539ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:19 pm</td>
+				<td>
+						Validating the Art Print option navigates to Art Print page while clicking it from Merch Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:21 pm</td>
+				<td>
+						Art Print page is loaded successfully after clicking the Art Print option in Merch Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367341967.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367341967.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="32"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Art Printing Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+27ms</p>
+							<span class="datetime">23:32:21 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Art Printing Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:21</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:24</span>
+									<span class='badge badge-default'>0h 0m 2s+27ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:21 pm</td>
+				<td>
+						Validating the Art Printing Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:24 pm</td>
+				<td>
+						Art Printing Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="33"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Adding Art Print to cart.</p>
+							<p class="duration text-sm">0h 0m 27s+314ms</p>
+							<span class="datetime">23:32:24 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Adding Art Print to cart.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:24</span>
+									<span class='badge badge-danger'>11.30.2023 23:32:51</span>
+									<span class='badge badge-default'>0h 0m 27s+314ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:24 pm</td>
+				<td>
+						Adding Art Print to cart and getting the products details from cart.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:51 pm</td>
+				<td>
+						Art Print is added to the cart sucessfully and products details from cart is validated.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367344210.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367344210.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367344691.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367344691.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367371339.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367371339.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="34"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Information Page title validation.</p>
+							<p class="duration text-sm">0h 0m 32s+250ms</p>
+							<span class="datetime">23:32:51 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Information Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:32:51</span>
+									<span class='badge badge-danger'>11.30.2023 23:33:23</span>
+									<span class='badge badge-default'>0h 0m 32s+250ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:32:51 pm</td>
+				<td>
+						Validating the Information Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:23 pm</td>
+				<td>
+						Information Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="35"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Get the product details from Information page.</p>
+							<p class="duration text-sm">0h 0m 0s+801ms</p>
+							<span class="datetime">23:33:23 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Get the product details from Information page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:33:23</span>
+									<span class='badge badge-danger'>11.30.2023 23:33:24</span>
+									<span class='badge badge-default'>0h 0m 0s+801ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:33:23 pm</td>
+				<td>
+						Validate whether the user is able to get the product details in Information page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:24 pm</td>
+				<td>
+						User got the product details successfully in Information Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367404525.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367404525.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="36"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Product details validation from Information page.</p>
+							<p class="duration text-sm">0h 0m 0s+811ms</p>
+							<span class="datetime">23:33:24 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Product details validation from Information page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:33:24</span>
+									<span class='badge badge-danger'>11.30.2023 23:33:25</span>
+									<span class='badge badge-default'>0h 0m 0s+811ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:33:24 pm</td>
+				<td>
+						Validate whether the user is able to validate the product details in Information page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:25 pm</td>
+				<td>
+						User validated the product details successfully in Information Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="37"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Contact Information submission from Information page.</p>
+							<p class="duration text-sm">0h 0m 36s+804ms</p>
+							<span class="datetime">23:33:25 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Contact Information submission from Information page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:33:25</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:02</span>
+									<span class='badge badge-default'>0h 0m 36s+804ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:33:25 pm</td>
+				<td>
+						Validate whether the user is able to submit the Contact Information in Information page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:02 pm</td>
+				<td>
+						User is able to submit the Contact information successfully in Information Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367407855.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367407855.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367442142.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367442142.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="38"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Shipping Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+35ms</p>
+							<span class="datetime">23:34:02 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Shipping Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:02</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:04</span>
+									<span class='badge badge-default'>0h 0m 2s+35ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:02 pm</td>
+				<td>
+						Validating the Shipping Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:04 pm</td>
+				<td>
+						Shipping Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="39"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Continue Payment button click in Shippment Page.</p>
+							<p class="duration text-sm">0h 0m 27s+801ms</p>
+							<span class="datetime">23:34:04 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Continue Payment button click in Shippment Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:04</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:32</span>
+									<span class='badge badge-default'>0h 0m 27s+801ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:04 pm</td>
+				<td>
+						Validate whether the user is able to click the Continue Payment button in Shippment Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:32 pm</td>
+				<td>
+						User is able click the Continue Payment button in Shippment Page
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367472006.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367472006.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="40"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Payment Page title validation.</p>
+							<p class="duration text-sm">0h 0m 2s+10ms</p>
+							<span class="datetime">23:34:32 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Payment Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:32</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:34</span>
+									<span class='badge badge-default'>0h 0m 2s+10ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:32 pm</td>
+				<td>
+						Validating the Payment Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:34 pm</td>
+				<td>
+						Payment Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="41"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Enter the Credit Card Information in Payment Page.</p>
+							<p class="duration text-sm">0h 0m 0s+983ms</p>
+							<span class="datetime">23:34:34 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Enter the Credit Card Information in Payment Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:34</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:35</span>
+									<span class='badge badge-default'>0h 0m 0s+983ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:34 pm</td>
+				<td>
+						Validate whether the user is able to enter the Credit Card Information in Payment Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:35 pm</td>
+				<td>
+						User entered the Credit Card information successfully in Payment Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367475057.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367475057.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="42"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Pay Now button click in Payment Page.</p>
+							<p class="duration text-sm">0h 0m 0s+432ms</p>
+							<span class="datetime">23:34:35 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Pay Now button click in Payment Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:35</span>
+									<span class='badge badge-danger'>11.30.2023 23:34:35</span>
+									<span class='badge badge-default'>0h 0m 0s+432ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:35 pm</td>
+				<td>
+						Validate whether the user is able to click the Pay Now button in Payment Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:35 pm</td>
+				<td>
+						User is able click the Pay Now button in Payment Page
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367475588.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367475588.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="43"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Order Confirmation Page title validation.</p>
+							<p class="duration text-sm">0h 0m 25s+660ms</p>
+							<span class="datetime">23:34:35 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Order Confirmation Page title validation.</h5>
+									<span class='badge badge-success'>11.30.2023 23:34:35</span>
+									<span class='badge badge-danger'>11.30.2023 23:35:01</span>
+									<span class='badge badge-default'>0h 0m 25s+660ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:34:35 pm</td>
+				<td>
+						Validating the Order Confirmation Page title against the Expected Title.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:01 pm</td>
+				<td>
+						Order Confirmation Page Title is validated Sucessfully
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="44"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Get the Order ID in Order Confirmation Page.</p>
+							<p class="duration text-sm">0h 0m 0s+199ms</p>
+							<span class="datetime">23:35:01 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Get the Order ID in Order Confirmation Page.</h5>
+									<span class='badge badge-success'>11.30.2023 23:35:01</span>
+									<span class='badge badge-danger'>11.30.2023 23:35:01</span>
+									<span class='badge badge-default'>0h 0m 0s+199ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:35:01 pm</td>
+				<td>
+						Validate whether the user is able to get the Order ID in Order Confirmation Page.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:01 pm</td>
+				<td>
+						User is able to get the Order ID successfully in Order Confirmation Page.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367501483.png' src='C:\Users\Desktop\eclipse-workspace\AutomationProject2\src\..\Screens\screenshots1701367501483.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="45"
+					author="Parthasarathi"
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Asserting all the validations</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">23:35:01 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Asserting all the validations</h5>
+									<span class='badge badge-success'>11.30.2023 23:35:01</span>
+									<span class='badge badge-danger'>11.30.2023 23:35:01</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-user-o"></i> Parthasarathi</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:35:01 pm</td>
+				<td>
+						All validations assert
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:01 pm</td>
+				<td>
+						All asserts are passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'>
+						<b>45</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='50%'><b>45</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='50%'>45</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">45</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>100.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Nov 30, 2023 11:28:27 pm</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 6m 34s+223ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Author</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Passed</th>
+								<th>Failed</th>
+								<th>Others</th>
+								<th>Passed %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Parthasarathi</td>
+								<td>45</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									100%
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 45,
+		passParent: 45,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 90,
+		passEvents: 45,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 45,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "Landing/Home Page title validation.":2.069,"Hamburger icon click validation in Landing/Home Page":4.134,"User icon click validation in Landing/Home Page":2.249,"Login Page title validation.":5.021,"Getting the UserName and click next Validation":6.423,"Getting the UserName and click next Validation":6.34,"Getting the Password and click next Validation":6.322,"User Dashboard Page title validation.":27.472,"Landing/Home Page Navigation from User Dashboard Page validation.":0.263,"Hamburger icon click validation in Landing/Home Page":4.112,"Selecting Diaper option from Navigation menu.":2.294,"Diaper Page title validation":2.018,"Selecting Diaper Size, No. of Diapers, Price and adding Diaper to cart":15.904,"Pant Page title validation":2.011,"Selecting Pant Size, No. of Pants, Price and adding Pant to cart.":15.983,"Wipe Page title validation.":2.028,"Selecting Wipe Size, No. of Wipe Price and adding Wipe to cart":13.627,"Adding Newborn Gift to cart":11.132,"Caraa Page title validation.":2.018,"Adding Caraa Bag to cart.":11.152,"Merch Page title validation.":2.338,"Selecting Classic Cap option from Merch Page.":2.617,"Classic Cap Page title validation.":2.016,"Selecting Classic Cap Size, colour and adding Pant to cart.":15.776,"Selecting Crew Neck option from Merch Page.":2.544,"Crew Neck Page title validation.":2.027,"Selecting Crew Neck Size, colour and adding Pant to cart.":15.923,"Selecting Tode option from Merch Page.":2.624,"Tote Page title validation.":2.016,"Adding Tote to cart.":11.163,"Selecting Art Print option from Merch Page.":2.539,"Art Printing Page title validation.":2.027,"Adding Art Print to cart.":27.314,"Information Page title validation.":32.25,"Get the product details from Information page.":0.801,"Product details validation from Information page.":0.811,"Contact Information submission from Information page.":36.804,"Shipping Page title validation.":2.035,"Continue Payment button click in Shippment Page.":27.801,"Payment Page title validation.":2.01,"Enter the Credit Card Information in Payment Page.":0.983,"Pay Now button click in Payment Page.":0.432,"Order Confirmation Page title validation.":25.66,"Get the Order ID in Order Confirmation Page.":0.199,"Asserting all the validations":0.002
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>
